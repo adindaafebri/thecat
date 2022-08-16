@@ -1,0 +1,48 @@
+cat-list {
+  display: block;
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+}
+
+cat-list > .placeholder {
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+cat-item {
+  display: block;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+cat-item .cat-image {
+  width: 50%;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cat-info {
+  padding: 24px;
+}
+
+.cat-info > h2 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.cat-info > p {
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10; /* number of lines to show */
+}
